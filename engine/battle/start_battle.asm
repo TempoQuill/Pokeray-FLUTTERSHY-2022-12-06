@@ -20,7 +20,7 @@ PlayBattleMusic:
 
 .trainermusic
 	ld de, MUSIC_PARTY_HOST_BATTLE
-	cp BROCK
+	cp C_JACE_V
 	jr z, .done
 	ld de, MUSIC_SHAGGY_BATTLE
 	cp CHAMPION

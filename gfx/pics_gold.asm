@@ -697,3 +697,5 @@ SECTION "Pics 15", ROMX
 
 OrkidFrontPic:       INCBIN "gfx/pokemon/orkid/front.2bpp.lz"
 OrkidBackPic:        INCBIN "gfx/pokemon/orkid/back.2bpp.lz"
+JaceVPic:
+	ds 120, 0

@@ -68,3 +68,4 @@ TrainerGroups:
 	dw BlueGroup
 	dw OfficerGroup
 	dw GruntFGroup
+	dw JaceVGroup

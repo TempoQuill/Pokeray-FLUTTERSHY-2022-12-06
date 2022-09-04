@@ -67,3 +67,4 @@ TrainerClassNames::
 	db "LEADER@"
 	db "OFFICER@"
 	db "ROCKET@"
+	db "<PKMN> TRAINER@"

@@ -199,4 +199,7 @@ CHRIS EQU __trainer_class__
 
 	trainerclass GRUNTF ; 42
 
+	trainerclass C_JACE_V ; 43
+	const T_JACE_V
+
 NUM_TRAINER_CLASSES EQU __trainer_class__

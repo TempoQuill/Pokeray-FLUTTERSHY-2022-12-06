@@ -368,3 +368,9 @@ RedGroup:
 	trainm 77, CHARIZARD,  FLAMETHROWER, WING_ATTACK, SLASH, FIRE_SPIN
 	trainm 77, BLASTOISE,  RAIN_DANCE, SURF, BLIZZARD, WHIRLPOOL
 	db -1 ; end
+
+JaceVGroup:
+	db "JJ@", TRAINERTYPE_ITEM_MOVES
+	; level no. species, held item,     moves
+	trainim 50, WHISPEON, FILLINGBERRY, CURSE, SAND_ATTACK, SHADOW_BALL, REST
+	db -1 ; end

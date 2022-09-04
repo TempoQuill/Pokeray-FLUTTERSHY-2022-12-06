@@ -72,3 +72,4 @@ INCBIN "gfx/trainers/red.gbcpal", top_colors
 INCBIN "gfx/trainers/blue.gbcpal", top_colors
 INCBIN "gfx/trainers/officer.gbcpal", top_colors
 INCBIN "gfx/trainers/grunt_f.gbcpal", top_colors
+INCBIN "gfx/trainers/jace_v.gbcpal", top_colors

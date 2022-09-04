@@ -68,3 +68,4 @@ TrainerPicPointers::
 	dba BluePic
 	dba OfficerPic
 	dba GruntfPic
+	dba JaceVPic
