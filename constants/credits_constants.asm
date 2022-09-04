@@ -63,6 +63,7 @@
 	const LAUREN_FAUST       ; "    LAUREN FAUST    "
 	const MINAKO_HAMANO      ; "   MINAKO HAMANO    "
 	const JOSHUA_CRAPO       ; "    JOSHUA CRAPO    "
+	const JACE_V             ; "      JACE V.       "
 	const CREDIT_END
 	const STAFF
 	const DIRECTOR

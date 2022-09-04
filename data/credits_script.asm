@@ -41,27 +41,33 @@ CreditsScript:
 	db CREDITS_WAIT, 12
 
 	db    GRAPHICS_DIRECTOR, 1
-	db         KEN_SUGIMORI, 2
+	db         JOSHUA_CRAPO, 2
 
-	db CREDITS_WAIT, 12
+	db CREDITS_WAIT, 10
 
 	db       MONSTER_DESIGN, 0
 	db         KEN_SUGIMORI, 1
 	db    MOTOFUMI_FUJIWARA, 2
 
-	db CREDITS_WAIT, 12
+	db CREDITS_WAIT, 10
 
 	db       MONSTER_DESIGN, 0
 	db     SHIGEKI_MORIMOTO, 1
 	db       ATSUKO_NISHIDA, 2
 
-	db CREDITS_WAIT, 12
+	db CREDITS_WAIT, 10
 
 	db       MONSTER_DESIGN, 0
 	db     HIRONOBU_YOSHIDA, 1
 	db          MUNEO_SAITO, 2
 
-	db CREDITS_WAIT, 12
+	db CREDITS_WAIT, 10
+
+	db       MONSTER_DESIGN, 0
+	db               JACE_V, 1
+	db         JOSHUA_CRAPO, 2
+
+	db CREDITS_WAIT, 10
 	db CREDITS_WAIT, 0
 
 ; Clear the banner.
@@ -95,7 +101,7 @@ CreditsScript:
 	db         CREDIT_MUSIC, 0
 	db         JOSHUA_CRAPO, 1
 	db         ANDREW_STEIN, 2
-	db        DANIEL_INGRAM, 3
+	db        SOLO_ACAPELLO, 3
 
 	db CREDITS_WAIT, 12
 
@@ -106,15 +112,15 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db         CREDIT_MUSIC, 0
-	db        SOLO_ACAPELLO, 1
-
-	db CREDITS_WAIT, 12
-
 	db CREDIT_SOUND_EFFECTS, 0
 	db        MORIKAZU_AOKI, 1
 	db       JUNICHI_MASUDA, 2
 	db     TETSUYA_WATANABE, 3
+
+	db CREDITS_WAIT, 12
+
+	db CREDIT_SOUND_EFFECTS, 0
+	db       JACK_GETSCHMAN, 1
 
 	db CREDITS_WAIT, 12
 
@@ -127,13 +133,14 @@ CreditsScript:
 
 	db          GAME_DESIGN, 0
 	db       JUNICHI_MASUDA, 1
-	db     KENJI_MATSUSHIMA, 2
+	db         JOSHUA_CRAPO, 2
 
 	db CREDITS_WAIT, 12
 
 	db        GAME_SCENARIO, 0
 	db  TOSHINOBU_MATSUMIYA, 1
 	db     KENJI_MATSUSHIMA, 2
+	db         JOSHUA_CRAPO, 3
 
 	db CREDITS_WAIT, 12
 
@@ -161,30 +168,21 @@ CreditsScript:
 
 	db CREDITS_WAIT, 12
 
-	db      MAP_DATA_DESIGN, 1
-	db      KAZUHITO_SEKINE, 2
+	db      MAP_DATA_DESIGN, 0
+	db      KAZUHITO_SEKINE, 1
+	db         JOSHUA_CRAPO, 2
 
 	db CREDITS_WAIT, 12
 
 	db           MAP_DESIGN, 0
-	db         TETSUJI_OOTA, 1
-	db        KOHJI_NISHINO, 2
-	db        NOBUHIRO_SEYA, 3
+	db         JOSHUA_CRAPO, 1
 
 	db CREDITS_WAIT, 12
 
-	db            PRODUCERS, 1
-	db      TAKEHIRO_IZUSHI, 2
-
-	db CREDITS_WAIT, 12
-
-	db            PRODUCERS, 1
+	db            PRODUCERS, 0
+	db      TAKEHIRO_IZUSHI, 1
 	db    TAKASHI_KAWAGUCHI, 2
-
-	db CREDITS_WAIT, 12
-
-	db            PRODUCERS, 1
-	db   TSUNEKAZU_ISHIHARA, 2
+	db   TSUNEKAZU_ISHIHARA, 3
 
 	db CREDITS_WAIT, 12
 	db CREDITS_WAIT, 0

@@ -63,7 +63,8 @@ Credits_DanielIngram::        db "   DANIEL INGRAM@"
 Credits_LaurenFaust::         db "    LAUREN FAUST@"
 Credits_MinakoHamano::        db "   MINAKO HAMANO@"
 Credits_JoshuaCrapo::         db "    JOSHUA CRAPO@"
-Credits_BonnieZacherle::      db "  BONNIE ZACHERLE@"
+Credits_BonnieZacherle::      db "  BONNIE ZACHERLE@" ; unused
+Credits_JaceV::               db "      JACE V.@"
 Credits_End::                 db "END@"
 Credits_Staff::               db "      #MON"
 IF DEF(_RAY)

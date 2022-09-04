@@ -64,7 +64,7 @@ CreditsStringsPointers:
 	dw Credits_LaurenFaust
 	dw Credits_MinakoHamano
 	dw Credits_JoshuaCrapo
-	dw Credits_BonnieZacherle
+	dw Credits_JaceV
 	; misc strings
 	dw Credits_End
 	dw Credits_Staff
