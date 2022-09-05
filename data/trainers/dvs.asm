@@ -67,4 +67,4 @@ TrainerClassDVs:
 	dn  9, 13, 13, 13
 	dn  9,  8,  8,  8
 	dn  7, 14, 10,  8
-	dn 15, 15, 15, 15 ; JACE V.
+	dn 12, 15, 15, 15 ; JACE V.
