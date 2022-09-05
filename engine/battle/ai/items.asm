@@ -268,6 +268,9 @@ AI_Items:
 	dbw X_DEFEND,     .XDefend
 	dbw X_SPEED,      .XSpeed
 	dbw X_SPECIAL,    .XSpecial
+	dbw LEMONADE,     .SuperPotion
+	dbw SODA_POP,     .SuperPotion
+	dbw FRESH_WATER,  .SuperPotion
 	db -1 ; end
 
 .FullHeal:
