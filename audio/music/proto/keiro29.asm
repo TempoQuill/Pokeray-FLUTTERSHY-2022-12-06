@@ -38,6 +38,7 @@ Keiro29_Ch1:
 	note G_, 2
 	note F#, 2
 	sound_call .sub2
+	octave 3
 	note B_, 2
 	note A_, 2
 	note G_, 2
