@@ -17,7 +17,7 @@ PlayersHouse1F_MapScripts:
 
 .FirstComeDownScript:
 	applymovement PLAYER, EntranceMovement
-	playmusic MUSIC_SHOW_ME_AROUND
+	playmusic MUSIC_MOM
 	special NameRival
 	special SetDayOfWeek
 	turnobject MOM_DEFAULT, UP

@@ -2344,15 +2344,15 @@ SetNoteDuration:
 	inc hl
 	ld d, [hl]
 	; add workflow to the next result
-	bc_offset CHANNEL_NOTE_FLOW
+	bc_offset CHANNEL_NOTE_DURATION + 1
 	ld l, [hl]
 	; multiply Tempo by last result (NoteLength * LOW(delay))
 	call .Multiply
 	; copy result to de
 	ld e, l
 	ld d, h
-	; store result in xNoteFlow
-	bc_offset CHANNEL_NOTE_FLOW
+	; store result in NoteDuration + 1
+	bc_offset CHANNEL_NOTE_DURATION + 1
 	ld [hl], e
 	; store result in NoteDuration
 	bc_offset CHANNEL_NOTE_DURATION
@@ -2419,7 +2419,7 @@ Tempo:
 	ld [hl], d
 	; clear workflow
 	xor a
-	bc_offset CHANNEL_NOTE_FLOW
+	bc_offset CHANNEL_NOTE_DURATION + 1
 	ld [hl], a
 	ret
 

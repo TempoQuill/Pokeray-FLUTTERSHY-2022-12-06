@@ -22,7 +22,7 @@ TrainerEncounterMusic::
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; brock
 	db MUSIC_LASS_ENCOUNTER        ; misty
 	db MUSIC_OFFICER_ENCOUNTER     ; lt_surge
-	db MUSIC_ROCKET_ENCOUNTER      ; scientist
+	db MUSIC_HAVOC_ENCOUNTER       ; scientist
 	db MUSIC_OFFICER_ENCOUNTER     ; erika
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; youngster
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; schoolboy
@@ -33,7 +33,7 @@ TrainerEncounterMusic::
 	db MUSIC_BEAUTY_ENCOUNTER      ; cooltrainerf
 	db MUSIC_BEAUTY_ENCOUNTER      ; beauty
 	db MUSIC_NONE                  ; pokemaniac
-	db MUSIC_ROCKET_ENCOUNTER      ; gruntm
+	db MUSIC_HAVOC_ENCOUNTER       ; gruntm
 	db MUSIC_HIKER_ENCOUNTER       ; gentleman
 	db MUSIC_BEAUTY_ENCOUNTER      ; skier
 	db MUSIC_BEAUTY_ENCOUNTER      ; teacher
@@ -53,11 +53,11 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; firebreather
 	db MUSIC_NONE                  ; juggler
 	db MUSIC_HIKER_ENCOUNTER       ; blackbelt_t
-	db MUSIC_ROCKET_ENCOUNTER      ; executivem
+	db MUSIC_HAVOC_ENCOUNTER       ; executivem
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; psychic_t
 	db MUSIC_LASS_ENCOUNTER        ; picnicker
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; camper
-	db MUSIC_ROCKET_ENCOUNTER      ; executivef
+	db MUSIC_HAVOC_ENCOUNTER       ; executivef
 	db MUSIC_NONE                  ; sage
 	db MUSIC_NONE                  ; medium
 	db MUSIC_HIKER_ENCOUNTER       ; boarder
@@ -68,7 +68,7 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; red
 	db MUSIC_RIVAL_ENCOUNTER       ; blue
 	db MUSIC_HIKER_ENCOUNTER       ; officer
-	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
+	db MUSIC_HAVOC_ENCOUNTER       ; gruntf
 	db MUSIC_ARTIST_ENCOUNTER      ; jace v.
 	db MUSIC_HIKER_ENCOUNTER
 	db MUSIC_HIKER_ENCOUNTER

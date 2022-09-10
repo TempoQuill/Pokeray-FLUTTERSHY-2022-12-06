@@ -74,7 +74,7 @@ wLowHealthAlarm:: ; 422 1a6
 ; bit 0-3: counter
 	db
 
-wMusicFade:: ; 423 1a5
+wMusicFade:: ; 423 1a7
 ; fades volume over x frames
 ; bit 7: fade in/out
 ; bit 0-5: number of frames for each volume level

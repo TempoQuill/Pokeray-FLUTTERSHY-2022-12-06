@@ -53,7 +53,7 @@ NUM_CHANNELS EQU const_value
 	const CHANNEL_OCTAVE                ; 13
 	const CHANNEL_TRANSPOSITION         ; 14
 	const CHANNEL_NOTE_DURATION         ; 15
-	const CHANNEL_NOTE_FLOW             ; 16
+	const_skip                          ; 16
 	const CHANNEL_PITCH_INC_SWITCH      ; 17
 	const CHANNEL_LOOP_COUNT            ; 18
 	const CHANNEL_TEMPO                 ; 19

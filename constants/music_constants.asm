@@ -49,7 +49,7 @@
 	const MUSIC_CREDITS                      ; 2b
 	const MUSIC_LANAWE_FOREST                ; 2c
 	const MUSIC_FIRE_FLOWER                  ; 2d ; SS_VAPOR
-	const MUSIC_RBY_POKEMON_CENTER           ; 2e ; DILAP_POKEMON_CENTER
+	const MUSIC_DILAP_POKEMON_CENTER         ; 2e
 	const MUSIC_STARMAN                      ; 2f ; LIGHTHOUSE
 	const MUSIC_EAST_COAST_STOP              ; 30
 	const MUSIC_INDIGO_PLATEAU               ; 31 ; EQUINTO_LEAGUE
@@ -67,7 +67,7 @@
 	const MUSIC_STAMP_TOWN                   ; 3d
 	const MUSIC_SUNKERN_SWAMP                ; 3e
 	const MUSIC_SURF                         ; 3f
-	const MUSIC_ROCKET_HIDEOUT               ; 40 ; HAVOC_HIDEOUT
+	const MUSIC_HAVOC_HIDEOUT                ; 40
 	const MUSIC_VS_MENU_1                    ; 41 ; TRADE_MENU_1
 	const MUSIC_VS_MENU_2                    ; 42 ; TRADE_MENU_2
 ; chaos exclusive
@@ -98,10 +98,8 @@ ENTER_MAP_MUSIC   EQU $ff
 ; G/S leftovers (rs constants)   ; (gs constants in comment)
 MUSIC_MAGNET_TRAIN       EQU $25 ; $05
 MUSIC_ROUTE_30           EQU $07 ; $2b
-MUSIC_ROCKET_ENCOUNTER   EQU $3a ; $39
 MUSIC_POKE_FLUTE_CHANNEL EQU $41 ; $40
 MUSIC_POKEMON_LULLABY    EQU $42 ; $50
 MUSIC_POKEMON_MARCH      EQU $3c ; $51
 MUSIC_GS_OPENING         EQU $01 ; $52
 MUSIC_GS_OPENING_2       EQU $02 ; $53
-MUSIC_ROCKET_OVERTURE    EQU $3b ; $56
