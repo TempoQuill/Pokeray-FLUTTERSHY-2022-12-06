@@ -3718,3 +3718,19 @@ PorysphiaEvosAttacks:
 	db 36, TRI_ATTACK
 	db 44, ZAP_CANNON
 	db 0 ; no more level-up moves
+
+SweoteEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 7, TAIL_WHIP
+	db 8, CONFUSION
+	db 11, THUNDERSHOCK
+	db 15, LEER
+	db 18, SWORDS_DANCE
+	db 19, EMBER
+	db 22, AMNESIA
+	db 27, PSYBEAM
+	db 30, THUNDERBOLT
+	db 32, FLAME_WHEEL
+	db 33, PSYCHIC_M
+	db 0 ; no more level-up moves
