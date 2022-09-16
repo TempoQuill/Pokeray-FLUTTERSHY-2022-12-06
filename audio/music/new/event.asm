@@ -25,10 +25,10 @@ Music_Event_Ch1:
 	duty_cycle 3
 	old_panning %1110, %1101
 .mainloop:
-	transpose 0, 0
+	relative_pitch 0
 	sound_call .sub1
 	sound_loop 4, .mainloop
-	transpose 0, 2
+	relative_pitch 2
 	sound_call .sub1
 	sound_call .sub1
 	sound_jump .mainloop
@@ -59,7 +59,7 @@ Music_Event_Ch2:
 	rest 4
 	duty_cycle 3
 .mainloop:
-	transpose 0, 0
+	relative_pitch 0
 	sound_call .sub1
 	note_type 12, 11, 5
 	note A_, 4
@@ -67,7 +67,7 @@ Music_Event_Ch2:
 	note_type 12, 11, 5
 	note B_, 4
 	sound_loop 2, .mainloop
-	transpose 0, 2
+	relative_pitch 2
 	sound_call .sub1
 	note_type 12, 11, 5
 	note A_, 4
@@ -92,7 +92,7 @@ Music_Event_Ch3:
 	note_type 12, 1, -4
 	rest 8
 .mainloop:
-	transpose 0, 0
+	relative_pitch 0
 	sound_call .sub1
 	octave 4
 	note A_, 4
@@ -100,7 +100,7 @@ Music_Event_Ch3:
 	octave 4
 	note B_, 4
 	sound_loop 2, .mainloop
-	transpose 0, 2
+	relative_pitch 2
 	sound_call .sub1
 	octave 4
 	note A_, 4
