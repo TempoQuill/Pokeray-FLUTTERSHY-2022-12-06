@@ -34,12 +34,12 @@ INCLUDE "audio/music/trainervictory.asm"
 
 SECTION "Songs 2", ROMX
 
-INCLUDE "audio/music/pokemoncenter.asm"
+INCLUDE "audio/music/proto/pokecenter.asm"
 INCLUDE "audio/music/looklass.asm"
 INCLUDE "audio/music/lookofficer.asm"
 INCLUDE "audio/music/new/eastcoaststop.asm"
 INCLUDE "audio/music/rby/diglettcave.asm"
-INCLUDE "audio/music/showmearound.asm"
+INCLUDE "audio/music/proto/tour.asm"
 INCLUDE "audio/music/gamecorner.asm"
 INCLUDE "audio/music/bicycle.asm"
 INCLUDE "audio/music/yoshi/starman.asm"
@@ -67,11 +67,10 @@ INCLUDE "audio/music/printer.asm"
 SECTION "Songs 4", ROMX
 
 INCLUDE "audio/music/new/hypercoincity.asm"
-INCLUDE "audio/music/wildpokemonvictory.asm"
-INCLUDE "audio/music/successfulcapture.asm"
-INCLUDE "audio/music/gymleadervictory.asm"
+INCLUDE "audio/music/proto/m_katsu1_wildwin.asm"
+INCLUDE "audio/music/proto/m_katsu3_leaderwin.asm"
 INCLUDE "audio/music/new/looksibs.asm"
-INCLUDE "audio/music/gym.asm"
+INCLUDE "audio/music/proto/gym.asm"
 INCLUDE "audio/music/new/oddishfarm.asm"
 INCLUDE "audio/music/lookrival.asm"
 INCLUDE "audio/music/aftertherivalfight.asm"
@@ -83,7 +82,7 @@ INCLUDE "audio/music/new/sunkernswamp.asm"
 INCLUDE "audio/music/new/wildbattle.asm"
 INCLUDE "audio/music/new/trainerbattle.asm"
 INCLUDE "audio/music/lookyoungster.asm"
-INCLUDE "audio/music/mom.asm"
+INCLUDE "audio/music/proto/m_okasan_mom.asm"
 INCLUDE "audio/music/rby/bikeriding.asm"
 INCLUDE "audio/music/bugcatchingcontestext.asm"
 INCLUDE "audio/music/rby/surfing.asm"
@@ -98,7 +97,7 @@ INCLUDE "audio/music/mainmenu.asm"
 SECTION "Extra Songs 1", ROMX
 
 INCLUDE "audio/music/creditsext.asm"
-INCLUDE "audio/music/postcredits.asm"
+INCLUDE "audio/music/proto/m_end2.asm"
 
 
 SECTION "Sound Effects", ROMX

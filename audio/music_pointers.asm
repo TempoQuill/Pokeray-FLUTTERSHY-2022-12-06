@@ -11,10 +11,10 @@ Music:
 	dba Keiro29                    ; Music_Route49
 	dba Music_Route52
 	dba Music_Route55
-	dba Music_Mom
-	dba Music_ShowMeAround         ; HurryAlong
+	dba Okasan                     ; Music_Mom
+	dba Tour                       ; Music_HurryAlong
 	dba Music_RBYTradeFanMade      ; Indoors
-	dba Music_PokemonCenter
+	dba PokeCenter                 ; Music_PokemonCenter
 	dba Music_CottageTown
 	dba Music_TraversalCity
 	dba Music_WildBattle
@@ -34,11 +34,11 @@ Music:
 	dba Music_LookRival
 	dba Music_Larch
 	dba Music_AfterTheRivalFight
-	dba Music_SuccessfulCapture    ; CatchVictory
-	dba Music_WildPokemonVictory   ; WildVictory
+	dba Katsu12                    ; Music_CatchVictory
+	dba Katsu1                     ; Music_WildVictory
 	dba Music_TrainerVictory
-	dba Music_GymLeaderVictory     ; GymVictory
-	dba Music_Gym
+	dba Katsu3                     ; Music_GymVictory
+	dba Gym                        ; Music_Gym
 	dba Music_RGOldHeal            ; HealAlternate
 ; end of demo OST
 	dba Music_GameCorner
@@ -58,7 +58,7 @@ Music:
 	dba Music_DiglettCave          ; MtVacuum
 	dba Music_AzaleaTown           ; NorgeoTown
 	dba Music_GoldenrodCity        ; PortiteCity
-	dba Music_PostCredits          ; End2 ; Music_TheEnd
+	dba End2                       ; Music_TheEnd
 	dba Music_Printer
 	dba Music_Route61
 	dba Music_LookHavoc
