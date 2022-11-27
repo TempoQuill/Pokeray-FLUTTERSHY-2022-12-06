@@ -491,14 +491,13 @@ Script_specialsound::
 
 .sfx:
 	db SFX_ITEM             ; ITEM
-	db SFX_TRADE_COMPLETE   ; KEY_ITEM
-	; placeholder for POKE BALL fanfare
-	db SFX_CHOOSE_A_CARD    ; BALL
+	db SFX_KEY_ITEM         ; KEY_ITEM
+	db SFX_POKE_BALL        ; BALL
 	db SFX_GET_TM           ; TM_HM
-	db SFX_GEN_1_DEX_REWARD ; MEDICINE
+	db SFX_MEDICINE         ; MEDICINE
 	db SFX_ITEM             ; FRUIT
-	db SFX_KEY_ITEM         ; ASM_ITEMS
-	db SFX_KEY_ITEM         ; EVO_ITEMS
+	db SFX_ENTRUSTMENT      ; ASM_ITEMS
+	db SFX_ENTRUSTMENT      ; EVO_ITEMS
 
 GetPocketName:
 	farcall CheckItemPocket

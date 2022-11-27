@@ -1,11 +1,11 @@
-SFX_PokemonAssembled:
+Sfx_PokemonAssembled:
 	channel_count 4
-	channel 5, SFX_PokemonAssembled_Ch5
-	channel 6, SFX_PokemonAssembled_Ch6
-	channel 7, SFX_PokemonAssembled_Ch7
-	channel 8, SFX_PokemonAssembled_Ch8
+	channel 5, Sfx_PokemonAssembled_Ch5
+	channel 6, Sfx_PokemonAssembled_Ch6
+	channel 7, Sfx_PokemonAssembled_Ch7
+	channel 8, Sfx_PokemonAssembled_Ch8
 
-SFX_PokemonAssembled_Ch5:
+Sfx_PokemonAssembled_Ch5:
 	set_music
 	tempo 154
 	volume 7
@@ -30,7 +30,7 @@ SFX_PokemonAssembled_Ch5:
 	note G#, 3
 	sound_ret
 
-SFX_PokemonAssembled_Ch6:
+Sfx_PokemonAssembled_Ch6:
 	set_music
 	duty_cycle 1
 	vibrato 5, 2, 3
@@ -59,7 +59,7 @@ SFX_PokemonAssembled_Ch6:
 	note E_, 6
 	sound_ret
 
-SFX_PokemonAssembled_Ch7
+Sfx_PokemonAssembled_Ch7
 	set_music
 	note_type 6, 1, 5
 	rest 8
@@ -117,7 +117,7 @@ SFX_PokemonAssembled_Ch7
 	note E_, 1
 	sound_ret
 
-SFX_PokemonAssembled_Ch8:
+Sfx_PokemonAssembled_Ch8:
 	set_music
 	sfx_toggle_noise 8
 	drum_speed 6
@@ -152,13 +152,13 @@ SFX_PokemonAssembled_Ch8:
 	drum_note 1, 6
 	sound_ret
 
-SFX_CaughtMon:
+Sfx_CaughtNewMon:
 	channel_count 3
-	channel 5, SFX_CaughtMon_Ch5
-	channel 6, SFX_CaughtMon_Ch6
-	channel 7, SFX_CaughtMon_Ch7
+	channel 5, Sfx_CaughtNewMon_Ch5
+	channel 6, Sfx_CaughtNewMon_Ch6
+	channel 7, Sfx_CaughtNewMon_Ch7
 
-SFX_CaughtMon_Ch5:
+Sfx_CaughtNewMon_Ch5:
 	set_music
 	tempo 245
 	volume 7
@@ -183,7 +183,7 @@ SFX_CaughtMon_Ch5:
 	note B_, 6
 	sound_ret
 
-SFX_CaughtMon_Ch6:
+Sfx_CaughtNewMon_Ch6:
 	set_music
 	duty_cycle 2
 	note_type 6, 12, 1
@@ -213,7 +213,7 @@ SFX_CaughtMon_Ch6:
 	note E_, 6
 	sound_ret
 
-SFX_CaughtMon_Ch7:
+Sfx_CaughtNewMon_Ch7:
 	set_music
 	vibrato 0, 1, 3
 	note_type 3, 1, -3
@@ -249,13 +249,13 @@ SFX_CaughtMon_Ch7:
 	note G#, 2
 	sound_ret
 
-SFX_PokedexReward:
+Sfx_PokedexReward:
 	channel_count 3
-	channel 5, SFX_PokedexReward_Ch5
-	channel 6, SFX_PokedexReward_Ch6
-	channel 7, SFX_PokedexReward_Ch7
+	channel 5, Sfx_PokedexReward_Ch5
+	channel 6, Sfx_PokedexReward_Ch6
+	channel 7, Sfx_PokedexReward_Ch7
 
-SFX_PokedexReward_Ch5:
+Sfx_PokedexReward_Ch5:
 	set_music
 	tempo 142
 	volume 7
@@ -285,7 +285,7 @@ SFX_PokedexReward_Ch5:
 	note B_, 2
 	sound_ret
 
-SFX_PokedexReward_Ch6:
+Sfx_PokedexReward_Ch6:
 	set_music
 	note_type 6, 13, 7
 	octave 1
@@ -314,7 +314,7 @@ SFX_PokedexReward_Ch6:
 	note G_, 4
 	sound_ret
 
-SFX_PokedexReward_Ch7:
+Sfx_PokedexReward_Ch7:
 	set_music
 	vibrato 10, 2, 3
 	note_type 6, 1, 4
@@ -344,14 +344,14 @@ SFX_PokedexReward_Ch7:
 	note G_, 4
 	sound_ret
 
-SFX_EggHatched:
+Sfx_EggHatched:
 	channel_count 4
-	channel 5, SFX_EggHatched_Ch5
-	channel 6, SFX_EggHatched_Ch6
-	channel 7, SFX_EggHatched_Ch7
-	channel 8, SFX_EggHatched_Ch8
+	channel 5, Sfx_EggHatched_Ch5
+	channel 6, Sfx_EggHatched_Ch6
+	channel 7, Sfx_EggHatched_Ch7
+	channel 8, Sfx_EggHatched_Ch8
 
-SFX_EggHatched_Ch5:
+Sfx_EggHatched_Ch5:
 	set_music
 	tempo 155
 	volume 7
@@ -382,7 +382,7 @@ SFX_EggHatched_Ch5:
 	note G_, 6
 	sound_ret
 
-SFX_EggHatched_Ch6:
+Sfx_EggHatched_Ch6:
 	set_music
 	duty_cycle 3
 	note_type 12, 12, 7
@@ -406,7 +406,7 @@ SFX_EggHatched_Ch6:
 	note D#, 6
 	sound_ret
 
-SFX_EggHatched_Ch7:
+Sfx_EggHatched_Ch7:
 	set_music
 	vibrato 12, 1, 3
 	note_type 6, 1, -3
@@ -425,7 +425,7 @@ SFX_EggHatched_Ch7:
 	note D#, 12
 	sound_ret
 
-SFX_EggHatched_Ch8:
+Sfx_EggHatched_Ch8:
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 6
@@ -450,13 +450,13 @@ SFX_EggHatched_Ch8:
 	drum_note 5, 12
 	sound_ret
 
-SFX_KeyItem:
+Sfx_ObtainKeyItem:
 	channel_count 3
-	channel 5, SFX_KeyItem_Ch5
-	channel 6, SFX_KeyItem_Ch6
-	channel 7, SFX_KeyItem_Ch7
+	channel 5, Sfx_ObtainKeyItem_Ch5
+	channel 6, Sfx_ObtainKeyItem_Ch6
+	channel 7, Sfx_ObtainKeyItem_Ch7
 
-SFX_KeyItem_Ch5:
+Sfx_ObtainKeyItem_Ch5:
 	set_music
 	tempo 128
 	volume 7
@@ -493,7 +493,7 @@ SFX_KeyItem_Ch5:
 	note G_, 16
 	sound_ret
 
-SFX_KeyItem_Ch6:
+Sfx_ObtainKeyItem_Ch6:
 	set_music
 	duty_cycle 2
 	vibrato 12, 8, 4
@@ -541,7 +541,7 @@ SFX_KeyItem_Ch6:
 	note D#, 16
 	sound_ret
 
-SFX_KeyItem_Ch7:
+Sfx_ObtainKeyItem_Ch7:
 	set_music
 	vibrato 7, 1, 3
 	note_type 5, 1, -6
@@ -578,13 +578,13 @@ SFX_KeyItem_Ch7:
 	note D#, 2
 	sound_ret
 
-SFX_Evolution:
+Sfx_Evolution:
 	channel_count 3
-	channel 5, SFX_Evolution_Ch5
-	channel 6, SFX_Evolution_Ch6
-	channel 7, SFX_Evolution_Ch7
+	channel 5, Sfx_Evolution_Ch5
+	channel 6, Sfx_Evolution_Ch6
+	channel 7, Sfx_Evolution_Ch7
 
-SFX_Evolution_Ch5:
+Sfx_Evolution_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -624,7 +624,7 @@ SFX_Evolution_Ch5:
 	note C_, 8
 	sound_ret
 
-SFX_Evolution_Ch6:
+Sfx_Evolution_Ch6:
 	set_music
 	duty_cycle 3
 	vibrato 5, 7, 2
@@ -673,7 +673,7 @@ SFX_Evolution_Ch6:
 	note F_, 8
 	sound_ret
 
-SFX_Evolution_Ch7:
+Sfx_Evolution_Ch7:
 	set_music
 	vibrato 7, 1, 3
 	note_type 5, 1, 0
@@ -701,13 +701,13 @@ SFX_Evolution_Ch7:
 	note A_, 1
 	sound_ret
 
-SFX_LevelUp:
+Sfx_NewLevel:
 	channel_count 3
-	channel 5, SFX_LevelUp_Ch5
-	channel 6, SFX_LevelUp_Ch6
-	channel 7, SFX_LevelUp_Ch7
+	channel 5, Sfx_NewLevel_Ch5
+	channel 6, Sfx_NewLevel_Ch6
+	channel 7, Sfx_NewLevel_Ch7
 
-SFX_LevelUp_Ch5:
+Sfx_NewLevel_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -729,7 +729,7 @@ SFX_LevelUp_Ch5:
 	note C_, 6
 	sound_ret
 
-SFX_LevelUp_Ch6:
+Sfx_NewLevel_Ch6:
 	set_music
 	duty_cycle 2
 	vibrato 15, 6, 4
@@ -749,7 +749,7 @@ SFX_LevelUp_Ch6:
 	note F_, 6
 	sound_ret
 
-SFX_LevelUp_Ch7:
+Sfx_NewLevel_Ch7:
 	set_music
 	vibrato 9, 1, 3
 	note_type 3, 1, -4
@@ -775,13 +775,13 @@ SFX_LevelUp_Ch7:
 	note A_, 2
 	sound_ret
 
-SFX_GoodDexRating:
+Sfx_GoodDexRating:
 	channel_count 3
-	channel 5, SFX_GoodDexRating_Ch5
-	channel 6, SFX_GoodDexRating_Ch6
-	channel 7, SFX_GoodDexRating_Ch7
+	channel 5, Sfx_GoodDexRating_Ch5
+	channel 6, Sfx_GoodDexRating_Ch6
+	channel 7, Sfx_GoodDexRating_Ch7
 
-SFX_GoodDexRating_Ch5:
+Sfx_GoodDexRating_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -803,7 +803,7 @@ SFX_GoodDexRating_Ch5:
 	note A_, 4
 	sound_ret
 
-SFX_GoodDexRating_Ch6:
+Sfx_GoodDexRating_Ch6:
 	set_music
 	duty_cycle 2
 	note_type 5, 12, 1
@@ -828,7 +828,7 @@ SFX_GoodDexRating_Ch6:
 	note F_, 4
 	sound_ret
 
-SFX_GoodDexRating_Ch7:
+Sfx_GoodDexRating_Ch7:
 	set_music
 	note_type 5, 1, -4
 	octave 6
@@ -856,13 +856,13 @@ SFX_GoodDexRating_Ch7:
 	rest 3
 	sound_ret
 
-SFX_Entrustment:
+Sfx_Entrustment:
 	channel_count 3
-	channel 5, SFX_Entrustment_Ch5
-	channel 6, SFX_Entrustment_Ch6
-	channel 7, SFX_Entrustment_Ch7
+	channel 5, Sfx_Entrustment_Ch5
+	channel 6, Sfx_Entrustment_Ch6
+	channel 7, Sfx_Entrustment_Ch7
 
-SFX_Entrustment_Ch5:
+Sfx_Entrustment_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -880,7 +880,7 @@ SFX_Entrustment_Ch5:
 	note G#, 6
 	sound_ret
 
-SFX_Entrustment_Ch6:
+Sfx_Entrustment_Ch6:
 	set_music
 	duty_cycle 3
 	vibrato 15, 4, 4
@@ -895,7 +895,7 @@ SFX_Entrustment_Ch6:
 	note G#, 6
 	sound_ret
 
-SFX_Entrustment_Ch7:
+Sfx_Entrustment_Ch7:
 	set_music
 	vibrato 9, 1, 3
 	note_type 3, 1, -3
@@ -917,13 +917,13 @@ SFX_Entrustment_Ch7:
 	note B_, 2
 	sound_ret
 
-SFX_Item:
+Sfx_ObtainItem:
 	channel_count 3
-	channel 5, SFX_Item_Ch5
-	channel 6, SFX_Item_Ch6
-	channel 7, SFX_Item_Ch7
+	channel 5, Sfx_ObtainItem_Ch5
+	channel 6, Sfx_ObtainItem_Ch6
+	channel 7, Sfx_ObtainItem_Ch7
 
-SFX_Item_Ch5:
+Sfx_ObtainItem_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -939,7 +939,7 @@ SFX_Item_Ch5:
 	note E_, 3
 	sound_ret
 
-SFX_Item_Ch6:
+Sfx_ObtainItem_Ch6:
 	set_music
 	duty_cycle 3
 	vibrato 10, 4, 4
@@ -952,7 +952,7 @@ SFX_Item_Ch6:
 	note B_, 3
 	sound_ret
 
-SFX_Item_Ch7:
+Sfx_ObtainItem_Ch7:
 	set_music
 	vibrato 4, 1, 3
 	note_type 4, 1, -2
@@ -970,14 +970,14 @@ SFX_Item_Ch7:
 	note B_, 1
 	sound_ret
 
-SFX_Badge:
+Sfx_Badge:
 	channel_count 4
-	channel 5, SFX_Badge_Ch5
-	channel 6, SFX_Badge_Ch6
-	channel 7, SFX_Badge_Ch7
-	channel 8, SFX_Badge_Ch8
+	channel 5, Sfx_Badge_Ch5
+	channel 6, Sfx_Badge_Ch6
+	channel 7, Sfx_Badge_Ch7
+	channel 8, Sfx_Badge_Ch8
 
-SFX_Badge_Ch5:
+Sfx_Badge_Ch5:
 	set_music
 	tempo 256
 	volume 7
@@ -1017,7 +1017,7 @@ SFX_Badge_Ch5:
 	note A_, 4
 	sound_ret
 
-SFX_Badge_Ch6:
+Sfx_Badge_Ch6:
 	set_music
 	duty_cycle 3
 	note_type 3, 12, 1
@@ -1057,7 +1057,7 @@ SFX_Badge_Ch6:
 	rest 1
 	sound_ret
 
-SFX_Badge_Ch7:
+Sfx_Badge_Ch7:
 	set_music
 	vibrato 0, 1, 3
 	note_type 3, 1, -2
@@ -1085,7 +1085,7 @@ SFX_Badge_Ch7:
 	rest 4
 	sound_ret
 
-SFX_Badge_Ch8:
+Sfx_Badge_Ch8:
 	set_music
 	sfx_toggle_noise 6
 	drum_speed 3
@@ -1114,14 +1114,14 @@ SFX_Badge_Ch8:
 	drum_note 8, 4
 	sound_ret
 
-SFX_TMHM:
+Sfx_TMHM:
 	channel_count 4
-	channel 5, SFX_TMHM_Ch5
-	channel 6, SFX_TMHM_Ch6
-	channel 7, SFX_TMHM_Ch7
-	channel 8, SFX_TMHM_Ch8
+	channel 5, Sfx_TMHM_Ch5
+	channel 6, Sfx_TMHM_Ch6
+	channel 7, Sfx_TMHM_Ch7
+	channel 8, Sfx_TMHM_Ch8
 
-SFX_TMHM_Ch5:
+Sfx_TMHM_Ch5:
 	set_music
 	tempo 139
 	volume 7
@@ -1150,7 +1150,7 @@ SFX_TMHM_Ch5:
 	note E_, 14
 	sound_ret
 
-SFX_TMHM_Ch6:
+Sfx_TMHM_Ch6:
 	set_music
 	duty_cycle 3
 	note_type 12, 13, 1
@@ -1169,7 +1169,7 @@ SFX_TMHM_Ch6:
 	note C_, 8
 	sound_ret
 
-SFX_TMHM_Ch7:
+Sfx_TMHM_Ch7:
 	set_music
 	vibrato 9, 1, 3
 	note_type 6, 1, -6
@@ -1202,7 +1202,7 @@ SFX_TMHM_Ch7:
 	note C_, 2
 	sound_ret
 
-SFX_TMHM_Ch8:
+Sfx_TMHM_Ch8:
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 12
@@ -1220,13 +1220,13 @@ SFX_TMHM_Ch8:
 	drum_note 5, 8
 	sound_ret
 
-SFX_BadDexRating:
+Sfx_BadDexRating:
 	channel_count 3
-	channel 5, SFX_BadDexRating_Ch5
-	channel 6, SFX_BadDexRating_Ch6
-	channel 7, SFX_BadDexRating_Ch7
+	channel 5, Sfx_BadDexRating_Ch5
+	channel 6, Sfx_BadDexRating_Ch6
+	channel 7, Sfx_BadDexRating_Ch7
 
-SFX_BadDexRating_Ch5:
+Sfx_BadDexRating_Ch5:
 	set_music
 	tempo 144
 	volume 7
@@ -1267,11 +1267,11 @@ SFX_BadDexRating_Ch5:
 	note G_, 4
 	sound_ret
 
-SFX_BadDexRating_Ch6:
+Sfx_BadDexRating_Ch6:
 	set_music
 	duty_cycle 2
 	note_type 6, 12, 1
-	sound_call SFX_BadDexRating_Ch5.sub1
+	sound_call Sfx_BadDexRating_Ch5.sub1
 	octave 4
 	note D_, 4
 	note C_, 4
@@ -1284,7 +1284,7 @@ SFX_BadDexRating_Ch6:
 	note E_, 8
 	sound_ret
 
-SFX_BadDexRating_Ch7:
+Sfx_BadDexRating_Ch7:
 	set_music
 	note_type 12, 1, 0
 	octave 6
@@ -1323,14 +1323,14 @@ SFX_BadDexRating_Ch7:
 	rest 3
 	sound_ret
 
-SFX_CompleteDex:
+Sfx_CompleteDex:
 	channel_count 4
-	channel 5, SFX_CompleteDex_Ch5
-	channel 6, SFX_CompleteDex_Ch6
-	channel 7, SFX_CompleteDex_Ch7
-	channel 8, SFX_CompleteDex_Ch8
+	channel 5, Sfx_CompleteDex_Ch5
+	channel 6, Sfx_CompleteDex_Ch6
+	channel 7, Sfx_CompleteDex_Ch7
+	channel 8, Sfx_CompleteDex_Ch8
 
-SFX_CompleteDex_Ch5:
+Sfx_CompleteDex_Ch5:
 	set_music
 	tempo 192
 	volume 7
@@ -1381,7 +1381,7 @@ SFX_CompleteDex_Ch5:
 	note A_, 9
 	sound_ret
 
-SFX_CompleteDex_Ch6:
+Sfx_CompleteDex_Ch6:
 	set_music
 	duty_cycle 3
 	vibrato 22, 8, 4
@@ -1430,7 +1430,7 @@ SFX_CompleteDex_Ch6:
 	note D_, 9
 	sound_ret
 
-SFX_CompleteDex_Ch7:
+Sfx_CompleteDex_Ch7:
 	set_music
 	vibrato 13, 2, 3
 	note_type 6, 1, -6
@@ -1467,7 +1467,7 @@ SFX_CompleteDex_Ch7:
 	note F#, 9
 	sound_ret
 
-SFX_CompleteDex_Ch8:
+Sfx_CompleteDex_Ch8:
 	set_music
 	sfx_toggle_noise 7
 	drum_speed 6
@@ -1502,14 +1502,14 @@ SFX_CompleteDex_Ch8:
 	drum_note 5, 12
 	sound_ret
 
-SFX_GameCornerWin:
+Sfx_GameCornerWin:
 	channel_count 4
-	channel 5, SFX_GameCornerWin_Ch5
-	channel 6, SFX_GameCornerWin_Ch6
-	channel 7, SFX_GameCornerWin_Ch7
-	channel 8, SFX_GameCornerWin_Ch8
+	channel 5, Sfx_GameCornerWin_Ch5
+	channel 6, Sfx_GameCornerWin_Ch6
+	channel 7, Sfx_GameCornerWin_Ch7
+	channel 8, Sfx_GameCornerWin_Ch8
 
-SFX_GameCornerWin_Ch5:
+Sfx_GameCornerWin_Ch5:
 	set_music
 	tempo 142
 	volume 7
@@ -1543,7 +1543,7 @@ SFX_GameCornerWin_Ch5:
 	note C#, 16
 	sound_ret
 
-SFX_GameCornerWin_Ch6:
+Sfx_GameCornerWin_Ch6:
 	set_music
 	note_type 6, 13, 7
 	rest 4
@@ -1580,7 +1580,7 @@ SFX_GameCornerWin_Ch6:
 	note A_, 16
 	sound_ret
 
-SFX_GameCornerWin_Ch7:
+Sfx_GameCornerWin_Ch7:
 	set_music
 	vibrato 20, 2, 3
 	note_type 6, 1, 2
@@ -1607,7 +1607,7 @@ SFX_GameCornerWin_Ch7:
 	note A_, 16
 	sound_ret
 
-SFX_GameCornerWin_Ch8:
+Sfx_GameCornerWin_Ch8:
 	set_music
 	sfx_toggle_noise 3
 	drum_speed 6
@@ -1639,13 +1639,13 @@ SFX_GameCornerWin_Ch8:
 	drum_note 12, 16
 	sound_ret
 
-SFX_EmailAddressRegistered:
+Sfx_EmailAddressRegistered:
 	channel_count 3
-	channel 5, SFX_EmailAddressRegistered_Ch5
-	channel 6, SFX_EmailAddressRegistered_Ch6
-	channel 7, SFX_EmailAddressRegistered_Ch7
+	channel 5, Sfx_EmailAddressRegistered_Ch5
+	channel 6, Sfx_EmailAddressRegistered_Ch6
+	channel 7, Sfx_EmailAddressRegistered_Ch7
 
-SFX_EmailAddressRegistered_Ch5:
+Sfx_EmailAddressRegistered_Ch5:
 	set_music
 	tempo 203
 	volume 7
@@ -1672,7 +1672,7 @@ SFX_EmailAddressRegistered_Ch5:
 	note G#, 6
 	sound_ret
 
-SFX_EmailAddressRegistered_Ch6:
+Sfx_EmailAddressRegistered_Ch6:
 	set_music
 	duty_cycle 1
 	vibrato 10, 2, 3
@@ -1696,7 +1696,7 @@ SFX_EmailAddressRegistered_Ch6:
 	note E_, 6
 	sound_ret
 
-SFX_EmailAddressRegistered_Ch7:
+Sfx_EmailAddressRegistered_Ch7:
 	set_music
 	note_type 4, 1, -3
 	octave 2
@@ -1741,13 +1741,13 @@ SFX_EmailAddressRegistered_Ch7:
 	rest 6
 	sound_ret
 
-SFX_PokeBall:
+Sfx_PokeBall:
 	channel_count 3
-	channel 5, SFX_PokeBall_Ch5
-	channel 6, SFX_PokeBall_Ch6
-	channel 7, SFX_PokeBall_Ch7
+	channel 5, Sfx_PokeBall_Ch5
+	channel 6, Sfx_PokeBall_Ch6
+	channel 7, Sfx_PokeBall_Ch7
 
-SFX_PokeBall_Ch5:
+Sfx_PokeBall_Ch5:
 	set_music
 	tempo 192
 	volume 7
@@ -1762,7 +1762,7 @@ SFX_PokeBall_Ch5:
 	note C_, 9
 	sound_ret
 
-SFX_PokeBall_Ch6:
+Sfx_PokeBall_Ch6:
 	set_music
 	duty_cycle 2
 	vibrato 23, 6, 4
@@ -1774,7 +1774,7 @@ SFX_PokeBall_Ch6:
 	note F_, 9
 	sound_ret
 
-SFX_PokeBall_Ch7:
+Sfx_PokeBall_Ch7:
 	set_music
 	vibrato 14, 2, 3
 	note_type 6, 1, 0
@@ -1790,13 +1790,13 @@ SFX_PokeBall_Ch7:
 	note F_, 2
 	sound_ret
 
-SFX_Prize:
+Sfx_Prize:
 	channel_count 3
-	channel 5, SFX_Prize_Ch5
-	channel 6, SFX_Prize_Ch6
-	channel 7, SFX_Prize_Ch7
+	channel 5, Sfx_Prize_Ch5
+	channel 6, Sfx_Prize_Ch6
+	channel 7, Sfx_Prize_Ch7
 
-SFX_Prize_Ch5:
+Sfx_Prize_Ch5:
 	set_music
 	tempo 223
 	volume 7
@@ -1824,7 +1824,7 @@ SFX_Prize_Ch5:
 	note A_, 4
 	sound_ret
 
-SFX_Prize_Ch6:
+Sfx_Prize_Ch6:
 	set_music
 	duty_cycle 2
 	vibrato 6, 3, 2
@@ -1850,7 +1850,7 @@ SFX_Prize_Ch6:
 	note F_, 4
 	sound_ret
 
-SFX_Prize_Ch7:
+Sfx_Prize_Ch7:
 	set_music
 	vibrato 9, 1, 3
 	note_type 3, 1, 0

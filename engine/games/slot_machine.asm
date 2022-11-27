@@ -1905,7 +1905,7 @@ endr
 	text_end
 
 .LinedUpSevens:
-	ld a, SFX_2ND_PLACE
+	ld a, SFX_GAME_CORNER_WIN
 	call Slots_PlaySFX
 	call WaitSFX
 

@@ -856,7 +856,7 @@ CardFlip_CheckWinCondition:
 
 .WinSix:
 	ld c, $6
-	ld de, SFX_2ND_PLACE
+	ld de, SFX_GAME_CORNER_WIN
 	jp .Payout
 
 .OneTwo:
@@ -881,7 +881,7 @@ CardFlip_CheckWinCondition:
 
 .WinNine:
 	ld c, $9
-	ld de, SFX_2ND_PLACE
+	ld de, SFX_GAME_CORNER_WIN
 	jp .Payout
 
 .Pikachu:
@@ -913,7 +913,7 @@ CardFlip_CheckWinCondition:
 
 .WinTwelve:
 	ld c, $c
-	ld de, SFX_2ND_PLACE
+	ld de, SFX_GAME_CORNER_WIN
 	jp .Payout
 
 .One:
@@ -959,7 +959,7 @@ CardFlip_CheckWinCondition:
 
 .WinEighteen:
 	ld c, $12
-	ld de, SFX_2ND_PLACE
+	ld de, SFX_GAME_CORNER_WIN
 	jp .Payout
 
 .PikaOne:
@@ -1062,7 +1062,7 @@ CardFlip_CheckWinCondition:
 	cp e
 	jr nz, .Lose
 	ld c, 72
-	ld de, SFX_2ND_PLACE
+	ld de, SFX_GAME_CORNER_WIN
 	jr .Payout
 
 .Lose:

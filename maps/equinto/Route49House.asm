@@ -21,7 +21,7 @@ Route49House_MapScripts:
 	applymovement PLAYER, ApproachPhilMovement
 	opentext
 	writetext InitialEntranceText2
-	playsound SFX_KEY_ITEM
+	playsound SFX_ENTRUSTMENT
 	giveitem OLD_AMBER
 	setevent EVENT_GOT_OLD_AMBER
 	writetext InitialEntranceText3
