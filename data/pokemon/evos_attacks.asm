@@ -3193,7 +3193,7 @@ FlambearEvosAttacks:
 	db 26, EARTHQUAKE
 	db 30, FLAMETHROWER
 	db 35, SUNNY_DAY
-	db 38, SOLAR_BEAM
+	db 38, SOLARBEAM
 	db 41, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3210,7 +3210,7 @@ VolbearEvosAttacks:
 	db 29, EARTHQUAKE
 	db 33, FLAMETHROWER
 	db 39, SUNNY_DAY
-	db 42, SOLAR_BEAM
+	db 42, SOLARBEAM
 	db 45, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3226,7 +3226,7 @@ DynabearEvosAttacks
 	db 31, EARTHQUAKE
 	db 36, FLAMETHROWER
 	db 42, SUNNY_DAY
-	db 46, SOLAR_BEAM
+	db 46, SOLARBEAM
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3594,7 +3594,7 @@ BelmittEvosAttacks:
 	db 1, GROWTH
 	db 1, LOVELY_KISS
 	db 1, RAZOR_LEAF
-	db 54, SOLAR_BEAM
+	db 54, SOLARBEAM
 	db 0 ; no more level-up moves
 
 BomocaEvosAttacks:
@@ -3725,12 +3725,21 @@ SweoteEvosAttacks:
 	db 7, TAIL_WHIP
 	db 8, CONFUSION
 	db 11, THUNDERSHOCK
-	db 15, LEER
+	db 15, EMBER
 	db 18, SWORDS_DANCE
-	db 19, EMBER
+	db 19, LEER
 	db 22, AMNESIA
 	db 27, PSYBEAM
 	db 30, THUNDERBOLT
 	db 32, FLAME_WHEEL
 	db 33, PSYCHIC_M
+	db 0 ; no more level-up moves
+
+RoguenecaEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, FUNNY_STUFF
+	db 1, TAIL_WHIP
+	db 9, CONFUSION
+	db 16, PSYWAVE
+	db 29, PSYBEAM
 	db 0 ; no more level-up moves
