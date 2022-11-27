@@ -72,7 +72,7 @@
 	const MUSIC_VS_MENU_2                    ; 42 ; TRADE_MENU_2
 ; chaos exclusive
 ;	const MUSIC_ZACH_ENCOUNTER               ; 43
-;	const MUSIC_GORDON_ENCOUNTER             ; 44
+;	const MUSIC_MARLOON_ENCOUNTER            ; 44
 ;	const MUSIC_EQUINE_TRIO_BATTLE           ; 45
 ;	const MUSIC_CHAOS_INTRO__SRB_THEME       ; 46
 ;	const MUSIC_PILOT_TUGERE__WBA_THEME      ; 47
