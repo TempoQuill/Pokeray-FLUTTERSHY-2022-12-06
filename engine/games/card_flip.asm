@@ -65,7 +65,7 @@ _CardFlip:
 	jr .MasterLoop
 .leavethegame
 	call WaitSFX
-	ld de, SFX_QUIT_SLOTS
+	ld de, SFX_SHUT_DOWN_PC
 	call PlaySFX
 	call WaitSFX
 	call ClearBGPalettes

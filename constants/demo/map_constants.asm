@@ -60,6 +60,7 @@ ENDM
 	map_const FOLIAGE_CITY          20, 18 ; 2
 
 	newgroup                        ; 4
+	MAP_DUNDEON EQU const_value
 
 	map_const MT_VACUUM             15, 55 ; 1
 

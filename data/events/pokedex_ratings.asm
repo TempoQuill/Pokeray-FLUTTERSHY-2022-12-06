@@ -16,12 +16,12 @@ OakRatings:
 	rating 170, SFX_DEX_REWARD,               OakRating08
 	rating 191, SFX_TRADE_COMPLETE,           OakRating09
 	rating 212, SFX_TRADE_COMPLETE,           OakRating10
-	rating 233, SFX_KEEP_AT_IT,               OakRating11
-	rating 255, SFX_KEEP_AT_IT,               OakRating12
-	rating 276, SFX_NOT_TOO_SHABBY,           OakRating13
-	rating 297, SFX_NOT_TOO_SHABBY,           OakRating14
-	rating 318, SFX_ALMOST_FINISHED,          OakRating15
-	rating 339, SFX_ALMOST_FINISHED,          OakRating16
+	rating 233, SFX_2ND_PLACE,                OakRating11
+	rating 255, SFX_2ND_PLACE,                OakRating12
+	rating 276, SFX_1ST_PLACE,                OakRating13
+	rating 297, SFX_1ST_PLACE,                OakRating14
+	rating 318, SFX_ASSEMBLED_MON,            OakRating15
+	rating 339, SFX_ASSEMBLED_MON,            OakRating16
 	rating 361, SFX_COMPLETED_DEX,            OakRating17
 	rating 382, SFX_COMPLETED_DEX,            OakRating18
 	rating 511, SFX_COMPLETED_DEX,            OakRating19

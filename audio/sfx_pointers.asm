@@ -1,30 +1,30 @@
 SFX:
 ; entries correspond to SFX_* constants
 	dba Sfx_Item
+	dba Sfx_KeyItem
+	dba Sfx_Gen1DexReward
 	dba Sfx_LevelUp
 	dba Sfx_EvoDitty
-	dba Sfx_Gen1DexReward
 	dba Sfx_TradeComplete
-	dba SFX_PLLong
+	dba Sfx_GetEgg
 	dba Sfx_CaughtMon
-	dba Sfx_KeyItem
-	dba Sfx_PLShort
+	dba SFX_PLLong
 	dba Sfx_RegisterPhoneNumber
-	dba Sfx_3rdPlace
-	dba Sfx_GetEgg
-	dba Sfx_GetEgg
-	dba Sfx_MoveDeleted
-	dba Sfx_2ndPlace
-	dba Sfx_1stPlace
-	dba Sfx_ChooseACard
 	dba Sfx_GetTm
 	dba Sfx_GetBadge
-	dba Sfx_QuitSlots
 	dba Sfx_Fail
+	dba Sfx_DexComplete
+	dba Sfx_2ndPlace
+	dba Sfx_PLShort
+	dba Sfx_ChooseACard
+	dba Sfx_1stPlace
+	dba Sfx_3rdPlace
+	dba Sfx_GetEgg
+	dba Sfx_MoveDeleted
+	dba Sfx_QuitSlots
 	dba Sfx_KeepAtIt
 	dba Sfx_NotTooShabby
 	dba Sfx_AlmostFinished
-	dba Sfx_DexComplete
 	dba Sfx_PokeballsPlacedOnTable
 	dba Sfx_Potion
 	dba Sfx_FullHeal

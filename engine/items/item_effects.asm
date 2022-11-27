@@ -2354,10 +2354,15 @@ PokeFluteEffect:
 .get_tune
 	ld a, [wMapGroup]
 	and a
-	jr nz, .get_tune_checkday
+	jr nz, .get_tune_check_dungeon
 	ld a, [wMapNumber]
 	dec a ; are we in COTTAGE_TOWN?
 	ld de, SFX_POKEFLUTE_HOME
+	ret z
+.get_tune_check_dungeon
+	ld a, [wMapGroup]
+	cp MAP_DUNDEON
+	ld de, SFX_POKEFLUTE_DUNGEON
 	ret z
 .get_tune_checkday
 	ld a, [wTimeOfDay]
