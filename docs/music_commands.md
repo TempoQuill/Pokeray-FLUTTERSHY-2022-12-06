@@ -194,7 +194,7 @@ USAGE:
 
 IMPORTANT NOTE: This only works in Ray.  This is because it was stubbed in the retail release of Gold.
 
-NOTE: Muting was only ever officially implemented in the NES version of Yoshi as `EF`, where it was never used.
+NOTE: Muting was only ever officially implemented in the NES version of Yoshi as `EF`, where it was never used.  As for using the command itself, one a channel uses it, muting is active until a new song plays.
 
 VARS:
 - Byte 2 = Mute Delay (in frames)
