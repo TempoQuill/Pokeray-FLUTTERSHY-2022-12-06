@@ -212,7 +212,6 @@
 	const SFX_SHOOTING_STAR               ; cf
 	const SFX_RBY_SING                    ; d0
 	const SFX_POKEFLUTE_HOME              ; d1
-; placeholder
 	const SFX_LOCK_ON                     ; d2
 	const SFX_FLAIL                       ; d3
 	const SFX_BALL_CLOSE                  ; d4
@@ -235,3 +234,15 @@
 	const SFX_PAY_DAY                     ; e5
 	const SFX_POKEFLUTE_NIGHT             ; e6
 	const SFX_POKEFLUTE_DUNGEON           ; e7
+; Chaos-exclusive
+;	const SFX_BLINK_E8                    ; e8
+;	const SFX_JUMP                        ; e9
+;	const SFX_DESCEND                     ; ea
+;	const SFX_GAME_FREAK_LOGO_CHAOS       ; eb
+;	const SFX_BLINK_EC                    ; ec
+;	const SFX_BURNOUT                     ; ed
+;	const SFX_FALL                        ; ee
+;	const SFX_STOP_IN_MIDAIR              ; ef
+;	const SFX_DASH                        ; f0
+;	const SFX_SONIC_BOOM                  ; f1
+;	const SFX_EMAIL_NOTIFICATION          ; f2

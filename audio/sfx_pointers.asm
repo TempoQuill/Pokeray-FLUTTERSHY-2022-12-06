@@ -18,6 +18,7 @@ SFX:
 	dba Sfx_EmailAddressRegistered
 	dba Sfx_PokeBall
 	dba Sfx_Prize
+; leftover from G/S
 	dba Sfx_3rdPlace
 	dba Sfx_GetEgg
 	dba Sfx_MoveDeleted
@@ -25,6 +26,7 @@ SFX:
 	dba Sfx_KeepAtIt
 	dba Sfx_NotTooShabby
 	dba Sfx_AlmostFinished
+; normal SFX
 	dba Sfx_PokeballsPlacedOnTable
 	dba Sfx_Potion
 	dba Sfx_FullHeal
@@ -212,25 +214,25 @@ SFX:
 	dba Sfx_ShootingStar
 	dba Sfx_RBYSing
 	dba Sfx_PokefluteHome
-; placeholders
 	dba Sfx_LockOn
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
-	dba Sfx_ShootingStar
+	dba Sfx_Flail
+	dba Sfx_BallClose
+	dba Sfx_InLove
+	dba Sfx_Amnesia
+	dba Sfx_ExpBarFilled
+	dba Sfx_Mimic1
+	dba Sfx_Mimic2
+	dba Sfx_Mimic3
+	dba Sfx_Mimic4
+	dba Sfx_Mimic5
+	dba Sfx_Mimic6
+	dba Sfx_Mimic7
+	dba Sfx_BallShake
+	dba Sfx_EggRoll
+	dba Sfx_Smokescreen
+	dba Sfx_Spikes1
+	dba Sfx_Spikes2
+	dba Sfx_Recover
+	dba Sfx_PayDay
 	dba Sfx_PokefluteNight
+	dba Sfx_PokefluteDungeon

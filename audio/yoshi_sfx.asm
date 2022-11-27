@@ -391,3 +391,22 @@ Sfx_PokefluteNight_Ch7:
 	note A_, 1
 	note D_, 9
 	sound_ret
+
+Sfx_PokefluteDungeon:
+	channel_count 1
+	channel 7, Sfx_PokefluteDungeon_Ch7
+
+Sfx_PokefluteDungeon_Ch7:
+	set_music
+	tempo 156
+	vibrato 11, 2, 4
+	note_type 12, 1, 2
+	octave 5
+	note D_, 1
+	note E_, 1
+	note F_, 1
+	note E_, 1
+	note D_, 2
+	note A_, 2
+	note A_, 6
+	sound_ret
