@@ -556,7 +556,7 @@ TextCommands::
 	dw TextCommand_SOUND         ; TX_SOUND_ITEM
 	dw TextCommand_SOUND         ; TX_SOUND_EGG
 	dw TextCommand_SOUND         ; TX_SOUND_TRADE_COMPLETE
-	dw TextCommand_SOUND         ; TX_SOUND_DEX_REWARD
+	dw TextCommand_SOUND         ; TX_SOUND_ASSEMBLED_MON
 	dw TextCommand_SOUND         ; TX_SOUND_SLOT_MACHINE_START
 	dw TextCommand_STRINGBUFFER  ; TX_STRINGBUFFER
 	dw TextCommand_DAY           ; TX_DAY
@@ -777,7 +777,7 @@ TextCommand_CRY:: ; unreferenced
 
 TextSFX::
 	dbw TX_SOUND_LEVEL_UP,           SFX_LEVEL_UP
-	dbw TX_SOUND_DEX_REWARD,         SFX_DEX_REWARD
+	dbw TX_SOUND_ASSEMBLED_MON,      SFX_ASSEMBLED_MON
 	dbw TX_SOUND_GEN_1_DEX_REWARD,   SFX_MEDICINE
 	dbw TX_SOUND_ITEM,               SFX_ITEM
 	dbw TX_SOUND_EGG,                SFX_EGG_HATCHED

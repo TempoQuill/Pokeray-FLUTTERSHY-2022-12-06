@@ -379,7 +379,8 @@ QualityOfLifeText2:
 
 QualityOfLifeText1:
 	text "Oh no! Your #-"
-	line "must be anxious!"
+	line "MON must be"
+	cont "anxious!"
 
 	para "Don't stack battle"
 	line "items so often!"
@@ -429,5 +430,5 @@ ToolBoxText6:
 	text_ram wStringBuffer1
 	text_start
 	text "!"
-	sound_gen_1_dex_reward
+	sound_assembled_mon
 	done

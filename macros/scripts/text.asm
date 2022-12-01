@@ -73,6 +73,7 @@ text_pause: MACRO
 	db TX_PAUSE
 ENDM
 
+; play SFX_LEVEL_UP
 	const TX_SOUND_LEVEL_UP ; $0b
 sound_level_up: MACRO
 	db TX_SOUND_LEVEL_UP
@@ -89,31 +90,37 @@ text_waitbutton: MACRO
 	db TX_WAIT_BUTTON
 ENDM
 
+; play SFX_MEDICINE
 	const TX_SOUND_GEN_1_DEX_REWARD ; $0e
 sound_gen_1_dex_reward: MACRO
 	db TX_SOUND_GEN_1_DEX_REWARD
 ENDM
 
+; play SFX_ITEM
 	const TX_SOUND_ITEM ; $0f
 sound_item: MACRO
 	db TX_SOUND_ITEM
 ENDM
 
+; play SFX_EGG_HATCHED
 	const TX_SOUND_EGG ; $10
 sound_egg: MACRO
 	db TX_SOUND_EGG
 ENDM
 
+; play SFX_KEY_ITEM
 	const TX_SOUND_TRADE_COMPLETE ; $11
 sound_trade_complete: MACRO
 	db TX_SOUND_TRADE_COMPLETE
 ENDM
 
-	const TX_SOUND_DEX_REWARD ; $12
-sound_dex_reward: MACRO
-	db TX_SOUND_DEX_REWARD
+; play SFX_ASSEMBLED_MON
+	const TX_SOUND_ASSEMBLED_MON ; $12
+sound_assembled_mon: MACRO
+	db TX_SOUND_ASSEMBLED_MON
 ENDM
 
+; play SFX_DEX_UPDATE
 	const TX_SOUND_SLOT_MACHINE_START ; $13
 sound_slot_machine_start: MACRO
 	db TX_SOUND_SLOT_MACHINE_START
@@ -136,6 +143,7 @@ text_far: MACRO
 	db BANK(\1)
 ENDM
 
+; play SFX_CAUGHT_MON
 	const TX_SOUND_CAUGHT_MON ; $17
 sound_caught_mon: MACRO
 	db TX_SOUND_CAUGHT_MON
