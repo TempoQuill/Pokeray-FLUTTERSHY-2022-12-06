@@ -41,4 +41,3 @@ Other disassembly projects:
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
 [travis]: https://travis-ci.org/pret/pokegold
 [travis-badge]: https://travis-ci.org/pret/pokegold.svg?branch=master
-# Pokeray-RARITY-2021-05-18
