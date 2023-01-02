@@ -32,7 +32,7 @@ Music_TradeMenu_Ch1:
 	note E_, 4
 .loop1:
 	note F_, 4
-	sound_loop 14, .loop2
+	sound_loop 14, .loop1
 	note G_, 4
 	note G_, 4
 	note G_, 4
