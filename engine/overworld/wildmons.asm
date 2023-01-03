@@ -775,16 +775,20 @@ _BackUpMapIndices:
 INCLUDE "data/wild/roammon_maps.asm"
 
 ValidateTempWildMonSpecies:
-	cp HIGH(NUM_POKEMON + 1) + 1
+	cp HIGH(NUM_DEF_POKEMON + 1) + 1
 	ld a, c
 	jr nc, .nowildmon
-	jr z, .goodwildmon
+	jr z, .oldmoncheck
 	and a
 	jr z, .nowildmon ; = 0
-	cp LOW(NUM_POKEMON + 1) ; 252
-	jr nc, .nowildmon ; >= 252
+	cp LOW(NUM_DEF_POKEMON + 1) ; 390
+	jr nc, .nowildmon ; >= 389
+	jr .goodwildmon
+.oldmoncheck
+	cp NEW_MONS
+	jr nc, .nowildmons
 .goodwildmon
-	and a ; 1 <= Species <= 251
+	and a ; 1 <= Species <= 389
 	ret
 
 .nowildmon

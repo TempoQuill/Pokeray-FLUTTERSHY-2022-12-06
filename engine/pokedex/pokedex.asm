@@ -1719,7 +1719,7 @@ Pokedex_OrderMonsByMode:
 .OldMode:
 	ld hl, sPokedexOrder
 	ld de, 0
-	ld bc, NUM_POKEMON
+	ld bc, NUM_DEF_POKEMON
 .loopold
 	inc de
 	ld [hl], e
@@ -1730,6 +1730,7 @@ Pokedex_OrderMonsByMode:
 	jr z, .checkold
 	jr nc, .loopold
 	dec b
+	ld c, CELEBI
 .checkold
 	ld a, b
 	and a

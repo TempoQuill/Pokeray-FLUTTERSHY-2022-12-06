@@ -1900,9 +1900,9 @@ ReleasePKMN_ByePKMN:
 	push bc
 	push hl
 	ld a, [wCurPartySpecies]
-	ld l, a
+	ld c, a
 	ld a, [wCurPartySpecies + 1]
-	ld h, a
+	ld b, a
 	call GetCryIndex
 	jr c, .skip_cry
 	ld e, c

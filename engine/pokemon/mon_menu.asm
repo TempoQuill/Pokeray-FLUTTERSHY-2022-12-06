@@ -1271,10 +1271,10 @@ PlaceMoveScreenLeftArrow:
 	inc hl
 .skip
 	ld a, [hld]
-	cp HIGH(NUM_POKEMON + 1)
+	cp HIGH(NUM_DEF_POKEMON + 1)
 	ld a, [hl]
 	jr c, .legal
-	cp LOW(NUM_POKEMON + 1)
+	cp LOW(NUM_DEF_POKEMON + 1)
 	jr c, .legal
 
 .prev
@@ -1315,9 +1315,9 @@ PlaceMoveScreenRightArrow:
 	inc hl
 .skip
 	ld a, [hld]
-	cp HIGH(NUM_POKEMON + 1)
+	cp HIGH(NUM_DEF_POKEMON + 1)
 	ld a, [hl]
-	cp LOW(NUM_POKEMON + 1)
+	cp LOW(NUM_DEF_POKEMON + 1)
 	jr c, .legal
 
 .next
