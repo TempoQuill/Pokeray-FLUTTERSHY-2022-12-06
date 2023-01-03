@@ -41,7 +41,7 @@ NUM_CHANNELS EQU const_value
 	const_skip
 	const CHANNEL_LAST_MUSIC_ADDRESS    ; 8
 	const_skip
-	const CHNANEL_DEEP_MUSIC_ADDRESS    ; a
+	const CHANNEL_DEEP_MUSIC_ADDRESS    ; a
 	const_skip
 	const CHANNEL_NOTE_FLAGS            ; c
 	const CHANNEL_CONDITION             ; d
