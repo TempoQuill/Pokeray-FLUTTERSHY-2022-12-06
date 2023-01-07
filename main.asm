@@ -411,3 +411,8 @@ PokegearGFX:
 INCBIN "gfx/pokegear/pokegear.2bpp.lz"
 
 INCLUDE "data/credits_strings.asm"
+
+
+SECTION "Assembly", ROMX
+
+INCLUDE "engine/pokemon/assembly.asm"
