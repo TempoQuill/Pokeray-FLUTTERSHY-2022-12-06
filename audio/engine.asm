@@ -2072,7 +2072,7 @@ Music_Tempo:
 	ld d, a
 	call GetMusicByte
 	ld e, a
-	call `
+	call SetGlobalTempo
 	ret
 
 Music_Octave:
