@@ -78,7 +78,7 @@ Title_ObjectMap:
 INCBIN "gfx/title/map_helicelia.bin"
 
 Title_CHRData:
-INCBIN "gfx/title/helicelia_ray.bmp"
+INCBIN "gfx/title/helicelia_ray.2bpp"
 
 TitleScreen:
 	call ClearBGPalettes
