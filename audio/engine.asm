@@ -1589,7 +1589,7 @@ Music_Ret:
 	ld [hl], e
 	inc hl
 	ld [hl], d
-	bc_offset CHNANEL_DEEP_MUSIC_ADDRESS
+	bc_offset CHANNEL_DEEP_MUSIC_ADDRESS
 	ld a, [hl]
 	and a
 	jr nz, .skip_flag
@@ -1624,7 +1624,7 @@ Music_Call:
 	jr z, .next_stack
 	; copy LastMusicAddress to DeepMusicAddress
 	ld d, [hl]
-	bc_offset CHNANEL_DEEP_MUSIC_ADDRESS
+	bc_offset CHANNEL_DEEP_MUSIC_ADDRESS
 	ld [hli], a
 	ld [hl], d
 .next_stack
@@ -2072,7 +2072,7 @@ Music_Tempo:
 	ld d, a
 	call GetMusicByte
 	ld e, a
-	call `
+	call SetGlobalTempo
 	ret
 
 Music_Octave:

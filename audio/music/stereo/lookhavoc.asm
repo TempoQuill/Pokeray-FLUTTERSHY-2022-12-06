@@ -39,8 +39,8 @@ Music_LookHavoc_Ch3:
 	note F#, 16
 	rest 14
 	vibrato 9, 1, 4
-	sound_call Music_TeamHavocTheme_Ch3.sub2
 	sound_call Music_TeamHavocTheme_Ch3.sub3
+	sound_call Music_TeamHavocTheme_Ch3.sub4
 	sound_jump Music_LookHavoc_Ch3
 
 Music_LookHavoc_Ch4:
@@ -48,6 +48,7 @@ Music_LookHavoc_Ch4:
 .mainloop:
 	sound_call Music_TeamHavocTheme_Ch4.sub1
 .loop1:
-	sound_call Music_TeamHavocTheme_Ch4.sub2
-	sound_loop 15, .loop1
+	sound_call Music_TeamHavocTheme_Ch4.sub3
+	sound_loop 14, .loop1
+	sound_call Music_TeamHavocTheme_Ch4.sub4
 	sound_jump .mainloop

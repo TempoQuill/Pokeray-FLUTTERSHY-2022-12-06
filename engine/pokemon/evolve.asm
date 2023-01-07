@@ -756,10 +756,10 @@ GetPreEvolution:
 	jr c, .pause
 .resume
 	ld a, b
-	cp HIGH(NUM_POKEMON) + 1
+	cp HIGH(NUM_DEF_POKEMON) + 1
 	jr nc, .loop
 	ld a, c
-	cp LOW(NUM_POKEMON)
+	cp LOW(NUM_DEF_POKEMON)
 	jr c, .loop
 	and a
 	ret

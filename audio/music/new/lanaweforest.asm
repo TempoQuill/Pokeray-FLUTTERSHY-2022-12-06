@@ -10,8 +10,8 @@ Music_LanaweForest_Ch1:
 	tempo 160
 	volume 7
 	duty_cycle 2
-	note_type 12, 10, 2
 .mainloop:
+	note_type 12, 10, 2
 	rest 16
 	sound_loop 8, .mainloop
 .loop1:
@@ -96,8 +96,8 @@ Music_LanaweForest_Ch2:
 	sound_call .sub1
 	sound_loop 7, .loop1
 	sound_call Music_LanaweForest_Ch1.sub1
-	vibrato 8, 7, 4
 .loop2:
+	vibrato 8, 7, 4
 	volume_envelope 0, -7
 	note D_, 8
 	volume_envelope 7, -7
@@ -161,7 +161,8 @@ Music_LanaweForest_Ch4:
 	sound_loop 4, .mainloop
 .loop1:
 	rest 16
-	sound_loop 16, .loop1
+	rest 16
+	sound_loop 8, .loop1
 .loop2:
 	sound_call .sub1
 	drum_note 1, 2

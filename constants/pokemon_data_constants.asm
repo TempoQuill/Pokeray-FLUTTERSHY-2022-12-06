@@ -42,7 +42,7 @@ NUM_BUILD_FLAGS EQU const_value
 
 ASM_PARAMETER_LENGTH EQU 10
 
-	const def
+	const_def
 	const COMBO_MAGNEMITE ; 0
 	const COMBO_STARYU    ; 1
 	const COMBO_PARAS     ; 2

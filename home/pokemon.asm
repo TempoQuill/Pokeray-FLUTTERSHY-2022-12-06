@@ -79,10 +79,10 @@ _PrepMonFrontpic::
 	jr z, .egg
 	ld a, [wCurPartySpecies]
 .may_be_invalid
-	cp LOW(NUM_POKEMON + 1)
+	cp LOW(NUM_DEF_POKEMON + 1)
 	jr c, .egg
 	ld a, [wCurPartySpecies + 1]
-	cp HIGH(NUM_POKEMON + 1)
+	cp HIGH(NUM_DEF_POKEMON + 1)
 	jr nc, .not_pokemon
 .egg
 	push hl
@@ -175,22 +175,21 @@ endr
 	ret
 
 GetCryIndex::
-	and b
-	jr z, .no
-	cp HIGH(NUM_POKEMON + 1)
+	ld a, b
+	cp HIGH(NUM_DEF_POKEMON + 1)
 	jr z, .check_low
 	jr nc, .no
 	jr .skip_check
 .check_low
-	and c
+	ld a, c
+	and a
 	jr z, .no
-	cp LOW(NUM_POKEMON + 1)
+	cp LOW(NUM_DEF_POKEMON + 1)
 	jr nc, .no
 
 .skip_check
 	dec a
-	ld c, l
-	ld b, h
+	dec bc
 	and a
 	ret
 

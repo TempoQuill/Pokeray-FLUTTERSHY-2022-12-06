@@ -35,7 +35,7 @@ shade_excl_obj := $(addsuffix _shade.o,$(rs_excl_asm))
 # pokesilver_debug_obj := $(rom_obj:.o=_silver_debug.o) $(silver_debug_excl_obj)
 
 pokeray_obj := $(rom_obj:.o=_ray.o) $(ray_excl_obj)
-pokeshade_obj := $(rom_obj:.o=shade.o) $(shade_excl_obj)
+pokeshade_obj := $(rom_obj:.o=_shade.o) $(shade_excl_obj)
 
 
 ### Build tools
@@ -124,10 +124,10 @@ $(info $(shell $(MAKE) -C tools))
 #	$(eval $(call DEP,$(obj),$(obj:_gold_debug.o=.asm))))
 # $(foreach obj, $(filter-out $(silver_debug_excl_obj), $(pokesilver_debug_obj)), \
 #	$(eval $(call DEP,$(obj),$(obj:_silver_debug.o=.asm))))
-$(foreach obj, $(filter-out $(ray_excl_obj), $(pokeray_obj))
-	$(eval $(call DEP,$(obj),$(obj:_ray.o=.asm)))
-$(foreach obj, $(filter-out $(shade_excl_obj), $(pokeshade_obj))
-	$(eval $(call DEP,$(obj),$(obj:_shade.o=.asm)))
+$(foreach obj, $(filter-out $(ray_excl_obj), $(pokeray_obj)), \
+	$(eval $(call DEP,$(obj),$(obj:_ray.o=.asm))))
+$(foreach obj, $(filter-out $(shade_excl_obj), $(pokeshade_obj)), \
+	$(eval $(call DEP,$(obj),$(obj:_shade.o=.asm))))
 
 # Dependencies for game-exclusive objects (keep _gold and _silver in asm file basenames)
 # $(foreach obj, $(gold_excl_obj) $(silver_excl_obj), \
@@ -136,10 +136,8 @@ $(foreach obj, $(filter-out $(shade_excl_obj), $(pokeshade_obj))
 #	$(eval $(call DEP,$(obj),$(obj:_gold_debug.o=_gold.asm))))
 # $(foreach obj, $(silver_debug_excl_obj), \
 #	$(eval $(call DEP,$(obj),$(obj:_silver_debug.o=_silver.asm))))
-$(foreach obj, $(ray_excl_obj), $(pokeray_obj)
-	$(eval $(call DEP,$(obj),$(obj:.o=.asm)))
-$(foreach obj, $(shade_excl_obj), $(pokeshade_obj)
-	$(eval $(call DEP,$(obj),$(obj:.o=.asm)))
+$(foreach obj, $(ray_excl_obj) $(shade_excl_obj), \
+	$(eval $(call DEP,$(obj),$(obj:.o=.asm))))
 
 endif
 

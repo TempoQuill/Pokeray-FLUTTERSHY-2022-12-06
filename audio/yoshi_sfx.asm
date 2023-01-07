@@ -384,7 +384,7 @@ Sfx_PokefluteNight_Ch7:
 	set_music
 	tempo 142
 	vibrato 11, 2, 4
-	note_type 6, 2, 7
+	note_type 12, 2, 7
 	octave 5
 	note D_, 1
 	note B_, 1
@@ -400,7 +400,7 @@ Sfx_PokefluteDungeon_Ch7:
 	set_music
 	tempo 156
 	vibrato 11, 2, 4
-	note_type 12, 1, 2
+	note_type 12, 1, 1
 	octave 5
 	note D_, 1
 	note E_, 1

@@ -28,7 +28,7 @@ INCLUDE "audio/music/yoshi/fireflower.asm"
 INCLUDE "audio/music/new/cottagetown.asm"
 INCLUDE "audio/music/new/portitecity.asm"
 INCLUDE "audio/music/titlescreen.asm"
-INCLUDE "audio/music/new/delappokecenter.asm"
+INCLUDE "audio/music/new/dilappokecenter.asm"
 INCLUDE "audio/music/trainervictory.asm"
 
 
@@ -113,7 +113,7 @@ SECTION "Cries", ROMX
 
 INCLUDE "data/pokemon/cries.asm"
 
-SECTION "New Sound Effects" ROMX
+SECTION "New Sound Effects", ROMX
 
 INCLUDE "audio/fanfares.asm"
 INCLUDE "audio/crystal_sfx.asm"

@@ -268,7 +268,7 @@ Music_PortiteCity_Ch1:
 	note B_, 1
 	note_type 8, 8, 7
 	octave 4
-	note C_, 4
+	note C_, 3
 	rest 1
 	octave 3
 	note B_, 6
