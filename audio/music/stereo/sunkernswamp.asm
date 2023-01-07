@@ -11,16 +11,16 @@ Music_SunkernSwamp_Ch1:
 	tempo 158
 	volume 7
 	duty_cycle 2
-	note_type 12, 0, 0
 .mainloop:
+	note_type 12, 0, 0
 	rest 16
 	sound_loop 6, .mainloop
 	rest 4
+	sound_call Music_SunkernSwamp_Ch2.sub1
 .loop1:
-	sound_call Music_SunkernSwamp_Ch2.sub1
 	note D_, 4
-	sound_loop 3, .loop1
 	sound_call Music_SunkernSwamp_Ch2.sub1
+	sound_loop 3, .loop1
 	note D_, 16
 .loop2:
 	rest 16

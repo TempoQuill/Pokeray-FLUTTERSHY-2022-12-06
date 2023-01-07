@@ -488,7 +488,7 @@ Music_StaffRoll_Ch2:
 	octave 2
 	note F_, 8
 	sound_call .sub3
-	rest 6
+	sound_call .sub5
 	note F_, 6
 	rest 6
 	note F_, 1
@@ -505,7 +505,12 @@ Music_StaffRoll_Ch2:
 	sound_call .sub3
 	sound_call .sub6
 	sound_call .sub4
+	sound_call .sub5
 	sound_call .sub7
+	note D#, 2
+	rest 2
+	note D#, 2
+	rest 6
 	octave 1
 	note A#, 1
 	rest 1
@@ -533,9 +538,9 @@ Music_StaffRoll_Ch2:
 	note A_, 4
 	note F_, 2
 	rest 2
-	sound_call .sub5
 	sound_call .sub6
 	sound_call .sub4
+	sound_call .sub5
 	sound_call .sub7
 	sound_call .sub1
 	transpose 0, 2
@@ -543,6 +548,7 @@ Music_StaffRoll_Ch2:
 	sound_call .sub3
 	sound_call .sub6
 	sound_call .sub4
+	sound_call .sub5
 	sound_call .sub7
 	sound_call .sub1
 	transpose 0, 0
@@ -642,6 +648,10 @@ Music_StaffRoll_Ch2:
 	sound_ret
 
 .sub1:
+	note D#, 2
+	rest 2
+	note D#, 2
+	rest 6
 	note D#, 1
 	rest 1
 	note D#, 1
@@ -667,6 +677,7 @@ Music_StaffRoll_Ch2:
 	note E_, 5
 	rest 2
 .sub2:
+	note_type 6, 13, 7
 	octave 2
 	note F_, 8
 	rest 4
@@ -775,6 +786,8 @@ Music_StaffRoll_Ch2:
 	note G_, 1
 	note A_, 5
 	rest 2
+	sound_ret
+
 .sub5:
 	note A#, 2
 	rest 2
@@ -787,9 +800,21 @@ Music_StaffRoll_Ch2:
 	note A#, 2
 	rest 2
 	note A#, 6
+	rest 6
 	sound_ret
 
 .sub6:
+	note A#, 2
+	rest 2
+	note A#, 2
+	rest 6
+	note A#, 1
+	rest 1
+	note A#, 1
+	rest 1
+	note A#, 2
+	rest 2
+	note A#, 6
 	rest 2
 	note F_, 4
 	note A#, 6
@@ -809,7 +834,6 @@ Music_StaffRoll_Ch2:
 	sound_ret
 
 .sub7:
-	rest 6
 	octave 2
 	note F_, 6
 	rest 6
@@ -821,10 +845,6 @@ Music_StaffRoll_Ch2:
 	note E_, 1
 	note F_, 3
 	note D_, 4
-	note D#, 2
-	rest 2
-	note D#, 2
-	rest 6
 	sound_ret
 
 Music_StaffRoll_Ch3:
@@ -936,7 +956,6 @@ Music_StaffRoll_Ch3:
 	volume_envelope 1, -3
 	note F_, 8
 	sound_call .sub4
-	sound_call .sub5
 	sound_call .sub6
 	volume_envelope 1, 4
 	octave 4
@@ -986,7 +1005,6 @@ Music_StaffRoll_Ch3:
 	sound_call .sub3
 	note_type 6, 1, -3
 	sound_call .sub4
-	sound_call .sub5
 	sound_call .sub6
 	sound_call .sub7
 	transpose 0, 0
@@ -1085,6 +1103,7 @@ Music_StaffRoll_Ch3:
 
 .sub1:
 	note_type 6, 1, 8
+.sub1loop1:
 	octave 5
 	note F_, 8
 	rest 4
@@ -1092,7 +1111,7 @@ Music_StaffRoll_Ch3:
 	rest 1
 	note F_, 1
 	rest 1
-	sound_loop 3, .sub1
+	sound_loop 3, .sub1loop1
 	note F_, 8
 	note G_, 1
 	sound_ret
@@ -1169,8 +1188,6 @@ Music_StaffRoll_Ch3:
 	note D_, 2
 	octave 4
 	note A#, 2
-	sound_ret
-
 .sub5:
 	volume_envelope 1, 2
 	octave 5
@@ -1260,176 +1277,79 @@ Music_StaffRoll_Ch4:
 	toggle_noise 6
 	stereo_panning TRUE, TRUE
 	drum_speed 6
+	sound_call .sub1
+	drum_note 3, 2
+	drum_note 4, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	sound_call .sub1
+	sound_call .sub2
+	drum_note 7, 4
+	sound_call .sub3
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 9, 2
+	drum_note 8, 4
+	drum_note 8, 4
+	sound_call .sub2
 .loop1:
 	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 5, 2
-	drum_note 6, 2
-	sound_loop 3, .loop1
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub1
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
 	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub1
+	sound_call .sub4
+	drum_note 8, 4
+	sound_call .sub3
+	sound_call .sub4
+	drum_note 8, 4
+	sound_call .sub3
+	sound_call .sub4
+	drum_note 8, 4
+	sound_call .sub3
+	sound_call .sub5
+	sound_loop 2, .loop1
 .loop2:
 	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
 	sound_call .sub3
-	sound_call .sub2
 	sound_call .sub4
 	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
 	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub4
-	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub4
-	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	drum_note 8, 4
-	drum_note 7, 8
-	drum_note 8, 4
-	sound_call .sub1
-	sound_loop 2, .loop2
+	sound_call .sub5
+	sound_loop 3, .loop2
+	sound_call .sub6
 .loop3:
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub4
-	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	drum_note 8, 4
-	drum_note 7, 8
-	drum_note 8, 4
 	sound_call .sub1
-	sound_loop 3, .loop3
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
 	drum_note 3, 2
 	drum_note 4, 2
 	drum_note 5, 2
 	drum_note 6, 2
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
+	sound_call .sub1
 	sound_call .sub2
-	sound_call .sub4
+	sound_loop 2, .loop3
+	drum_note 7, 4
+	sound_call .sub3
 .loop4:
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 5, 2
-	drum_note 6, 2
+	sound_call .sub4
+	drum_note 8, 4
+	sound_call .sub3
 	sound_loop 3, .loop4
+	sound_call .sub5
+	sound_call .sub2
 	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
+	sound_call .sub3
+	sound_call .sub4
+	drum_note 8, 4
+	sound_call .sub3
+	sound_call .sub5
+	sound_call .sub6
 	sound_call .sub1
-.loop5:
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
 	drum_note 3, 2
 	drum_note 4, 2
 	drum_note 5, 2
 	drum_note 6, 2
-	sound_loop 3, .loop5
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
 	sound_call .sub1
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-.loop6:
 	sound_call .sub2
-	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub4
-	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_loop 3, .loop6
-	sound_call .sub2
-	sound_call .sub3
-	drum_note 8, 4
-	drum_note 7, 4
-	rest 4
-	drum_note 8, 4
-	sound_call .sub1
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	sound_call .sub2
-	sound_call .sub4
-	drum_note 8, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub3
-	drum_note 8, 4
-	drum_note 7, 8
-	drum_note 8, 4
-	sound_call .sub1
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 5, 2
-	drum_note 6, 2
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub2
-	sound_call .sub4
-.loop7:
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	drum_note 3, 2
-	drum_note 4, 2
-	drum_note 5, 2
-	drum_note 6, 2
-	sound_loop 3, .loop7
-	drum_note 7, 4
-	drum_note 10, 2
-	drum_note 10, 2
-	sound_call .sub1
 	drum_speed 12
 	drum_note 7, 16
 	rest 16
@@ -1456,7 +1376,7 @@ Music_StaffRoll_Ch4:
 	drum_note 9, 1
 	drum_note 8, 1
 	drum_note 8, 1
-.loop8:
+.loop5:
 	drum_note 7, 12
 	drum_note 10, 2
 	drum_note 10, 2
@@ -1464,8 +1384,8 @@ Music_StaffRoll_Ch4:
 	drum_note 9, 2
 	drum_note 10, 2
 	drum_note 8, 2
-	sound_call .sub1
-	sound_loop 2, .loop8
+	sound_call .sub2
+	sound_loop 2, .loop5
 	drum_note 7, 12
 	drum_note 10, 2
 	drum_note 10, 2
@@ -1483,13 +1403,26 @@ Music_StaffRoll_Ch4:
 	drum_note 8, 2
 	drum_note 8, 2
 	drum_speed 6
-	sound_call .sub1
+	sound_call .sub2
 	drum_note 7, 16
 	rest 16
 	rest 8
 	sound_ret
 
 .sub1:
+	drum_note 7, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 3, 2
+	drum_note 4, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	drum_note 7, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	sound_ret
+
+.sub2:
 	drum_note 10, 1
 	drum_note 10, 1
 	drum_note 10, 1
@@ -1500,24 +1433,65 @@ Music_StaffRoll_Ch4:
 	drum_note 9, 1
 	sound_ret
 
-.sub2:
+.sub3:
+	drum_note 10, 2
+	drum_note 10, 2
 	drum_note 8, 4
 	drum_note 10, 2
 	drum_note 9, 2
 	drum_note 8, 4
 	drum_note 8, 4
-	sound_ret
-
-.sub3:
 	drum_note 10, 4
 	drum_note 8, 2
-	drum_note 10, 2
-	drum_note 8, 4
-	drum_note 10, 2
 	drum_note 10, 2
 	sound_ret
 
 .sub4:
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 9, 2
+	drum_note 8, 4
+	drum_note 8, 4
+	drum_note 8, 2
+	drum_note 10, 2
+	drum_note 9, 2
+	drum_note 10, 2
+	sound_ret
+
+.sub5:
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 8, 4
+	drum_note 7, 4
+	rest 4
+	drum_note 8, 4
+	sound_jump .sub2
+
+.sub6:
+	drum_note 7, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 9, 2
+	drum_note 8, 4
+	drum_note 8, 4
+	drum_note 3, 2
+	drum_note 4, 2
+	drum_note 5, 2
+	drum_note 6, 2
+	drum_note 7, 4
+	drum_note 10, 2
+	drum_note 10, 2
+	drum_note 8, 4
+	drum_note 10, 2
+	drum_note 9, 2
+	drum_note 8, 4
+	drum_note 8, 4
 	drum_note 8, 2
 	drum_note 10, 2
 	drum_note 9, 2

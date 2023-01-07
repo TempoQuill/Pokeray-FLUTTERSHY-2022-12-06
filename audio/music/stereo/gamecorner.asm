@@ -247,7 +247,8 @@ Music_GameCorner_Ch4:
 
 .sub1:
 	rest 16
-	sound_loop 7, .sub1
+	sound_loop 6, .sub1
+	rest 16
 	rest 8
 	drum_note 3, 2
 	drum_note 2, 2
