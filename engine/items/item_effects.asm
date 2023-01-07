@@ -2361,7 +2361,7 @@ PokeFluteEffect:
 	ret z
 .get_tune_check_dungeon
 	ld a, [wMapGroup]
-	cp MAP_DUNDEON
+	cp MAP_DUNGEON
 	ld de, SFX_POKEFLUTE_DUNGEON
 	ret z
 .get_tune_checkday

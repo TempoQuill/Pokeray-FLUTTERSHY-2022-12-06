@@ -35,7 +35,7 @@ shade_excl_obj := $(addsuffix _shade.o,$(rs_excl_asm))
 # pokesilver_debug_obj := $(rom_obj:.o=_silver_debug.o) $(silver_debug_excl_obj)
 
 pokeray_obj := $(rom_obj:.o=_ray.o) $(ray_excl_obj)
-pokeshade_obj := $(rom_obj:.o=shade.o) $(shade_excl_obj)
+pokeshade_obj := $(rom_obj:.o=_shade.o) $(shade_excl_obj)
 
 
 ### Build tools
