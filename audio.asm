@@ -113,7 +113,7 @@ SECTION "Cries", ROMX
 
 INCLUDE "data/pokemon/cries.asm"
 
-SECTION "New Sound Effects" ROMX
+SECTION "New Sound Effects", ROMX
 
 INCLUDE "audio/fanfares.asm"
 INCLUDE "audio/crystal_sfx.asm"
