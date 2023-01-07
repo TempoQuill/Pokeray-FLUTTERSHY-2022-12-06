@@ -15,7 +15,6 @@ INCLUDE "engine/math/math.asm"
 INCLUDE "data/items/attributes.asm"
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/events/happiness_egg.asm"
-INCLUDE "engine/events/shuckle.asm"
 INCLUDE "engine/events/haircut.asm"
 
 
@@ -412,3 +411,8 @@ PokegearGFX:
 INCBIN "gfx/pokegear/pokegear.2bpp.lz"
 
 INCLUDE "data/credits_strings.asm"
+
+
+SECTION "Assembly", ROMX
+
+INCLUDE "engine/pokemon/assembly.asm"

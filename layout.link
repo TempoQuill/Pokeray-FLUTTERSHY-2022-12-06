@@ -130,7 +130,8 @@ ROMX $2b
 	"Songs 4"
 ROMX $2c
 	"New Sound Effects"
-;	2d
+ROMX $2d
+	"Assembly"
 ROMX $2e
 	"Pics 14"
 	org $6300
